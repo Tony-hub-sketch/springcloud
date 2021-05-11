@@ -2,10 +2,10 @@ package com.lzj.springcloud.controller;
 
 import com.lzj.springcloud.entities.CommonResult;
 import com.lzj.springcloud.entities.Payment;
+import com.lzj.springcloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
-import com.lzj.springcloud.service.PaymentService;
 
 import javax.annotation.Resource;
 
